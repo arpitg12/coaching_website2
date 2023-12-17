@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hro {
+      height: 520px;
+    }
+
+    .hro img {
+      height: 100%;
+      width: 100%;
+      object-fit: fill;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper overflow-x-hidden">
+    <div class="nav1 flex justify-between bg-slate-400 h-16 w-screen text-center ">
+      <div class="first flex ml-8 gap-6 pt-4 pl-3">
+        <div class="flex gap-2 text-center">
+          <img src="telephone.png" class="h-8 w-8" alt="">
+          <a class="text-bold" href="tel:9999999999">9999999999</a>
+        </div>
+        <div class="flex gap-2 text-center">
+          <img src="819814.png" class="h-8 w-8 bg-none" alt="">
+          <p class="text-bold">Krishna Nagar, Mathura</p>
+        </div>
+        <div class="flex gap-2 text-center">
+          <img src="Clock-Transparent-Images.png" class="h-8 w-8" alt="">
+          <p class="text-bold"> Mon - Sat 10:00 - 6:00</p>
+        </div>
+      </div>
+      <div class="second flex mr-16">
+        <div class="flex gap-6 pt-2">
+          <a href="#"><img src="Blue-Facebook-Logo-Transparent-File.png" class="h-12 w-12" alt=""></a>
+          <a href="#"><img src="Instagram_logo_2016.svg.webp" class="h-12 w-12" alt=""></a>
+          <a href="#"><img src="R.png" class="h-12 w-12" alt=""></a>
+          <a href="#"><img src="youtube-logo-transparent-cute-7.png" class=" bg-none w-12 h-12" alt=""></a>
+        </div>
+        <div class="pl-8">
+          <img class="p-2" src="R.gif" width="90px" height="60px" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="nav2 flex pt-3 justify-evenly  bg-slate-600 h-16 w-screen text-center">
+      <div class="my-auto font-bold text-white leading-10 text-2xl ">
+        <h1>Teach_US</h1>
+      </div>
+      <div class=" my-auto font-bold text-white leading-10 text-2xl">
+        <h1>Education is the key to SUCCESS</h1>
+      </div>
+      <div>
+        <a href="">
+          <button
+            class="text-white m-2 my-auto bg-sky-600 rounded-full p-2 self-center hover:bg-slate-600 font-bold left-1 py-[10px] px-[15px] transition-all duration-200">
+            Meet Your Instructor
+          </button></a>
+      </div>
+    </div>
+    <div class="hro aa w-screen">
+      <img src="GLWRuH.webp" alt="">
+
+    </div>
+
+    <section class="relative mt-[50px] overflow-hidden">
+      <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+        <!--content box-->
+        <div class="w-full min-h-[520px] bg-white flex rounded-md border-cyan-600 relative p-10 py-12 border">
+          <!--left section-->
+          <div class="flex flex-col justify-between max-w-[600px]">
+            <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px]">
+              <span class="text-lightBlue">Application Of C Programming Language</span>
+            </h3>
+            <ul class="space-y-5">
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500">Operating Systems</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500"> Embedded systems </span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500"> System software </span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500"> Scientific applications </span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="font-mono text-blue-500">
+                  Artificial Intelligence
+                </span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500"> Networking </span>
+              </li>
+            </ul>
+            <div class="flex flex-row items-center space-x-4">
+              <button
+                class="text-white bg-blue-600 rounded-md hover:bg-slate-600 font-bold py-[14px] px-[18px] transition-all duration-200">
+                <a href="">Sign Up Now</a>
+              </button>
+              <!--hyperlink-->
+              <div class="flex items-center cursor-pointer group">
+                <a href="#"
+                  class="font-mullish font-bold text-blue-600 group-hover:text-grayBlue transition-all duration-200">Know
+                  More</a>
+                <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+              </div>
+            </div>
+          </div>
+          <img src="fe1c50dc500602d74be528323dd50187.gif" alt="" loading="lazy" style="height: 100%;"
+            class="max-w-[600px]  absolute right-0 bottom-0" />
+        </div>
+      </div>
+    </section>
+
+    <section class="relative mt-[50px] overflow-hidden">
+      <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+        <!--content box-->
+        <div class="w-full min-h-[520px] flex flex-row-reverse bg-white  rounded-md border-cyan-600 relative p-10 py-12 border">
+          <!--left section-->
+          <div class="flex flex-col justify-between max-w-[600px]">
+            <h3 class="font-mullish text-[28px] leading-10 font-bold ">
+              <span class="text-lightBlue">Application Of C Programming Language</span>
+            </h3>
+            <ul class="space-y-5">
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500">Operating Systems</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500"> Embedded systems </span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500"> System software </span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500"> Scientific applications </span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="font-mono text-blue-500">
+                  Artificial Intelligence
+                </span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500"> Networking </span>
+              </li>
+            </ul>
+            <div class="flex flex-row items-center space-x-4">
+              <button
+                class="text-white bg-blue-600 rounded-md hover:bg-slate-600 font-bold py-[14px] px-[18px] transition-all duration-200">
+                <a href="">Sign Up Now</a>
+              </button>
+              <!--hyperlink-->
+              <div class="flex items-center cursor-pointer group">
+                <a href="#"
+                  class="font-mullish font-bold text-blue-600 group-hover:text-grayBlue transition-all duration-200">Know
+                  More</a>
+                <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+              </div>
+            </div>
+            <!-- </div>
+                <img src="chemistry.gif" alt="" loading="lazy" style="height: 100%;" class="max-w-[600px]  absolute right-0 bottom-0" />
+              </div> -->
+          </div>
+          <div>
+            <img src="maths_worksheets-269x300.jpg" alt="" loading="lazy" style="height: 100%;" class="max-w-[600px]  absolute left-0 bottom-0" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="relative mt-[50px] overflow-hidden">
+      <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+        <!--content box-->
+        <div class="w-full min-h-[520px] bg-white flex rounded-md border-cyan-600 relative p-10 py-12 border">
+          <!--left section-->
+          <div class="flex flex-col justify-between w-full">
+            <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px]">
+              <span class="text-lightBlue">Application Of C Programming Language</span>
+            </h3>
+            <ul class="space-y-5">
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500">Operating Systems</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500"> Embedded systems </span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500"> System software </span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500"> Scientific applications </span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="font-mono text-blue-500">
+                  Artificial Intelligence
+                </span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <i data-feather="chevron-right" class="text-greenLight"></i>
+                <span class="text-blue-500"> Networking </span>
+              </li>
+            </ul>
+            <div class="flex flex-row items-center space-x-4">
+              <button
+                class="text-white bg-blue-600 rounded-md hover:bg-slate-600 font-bold py-[14px] px-[18px] transition-all duration-200">
+                <a href="">Sign Up Now</a>
+              </button>
+              <!--hyperlink-->
+              <div class="flex items-center cursor-pointer group">
+                <a href="#"
+                  class="font-mullish font-bold text-blue-600 group-hover:text-grayBlue transition-all duration-200">Know
+                  More</a>
+                <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+              </div>
+            </div>
+          </div>
+          <img src="chemistry.gif" alt="" loading="lazy" style="height: 100%;"
+            class="max-w-[600px]  absolute right-0 bottom-0" />
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    feather.replace();
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
